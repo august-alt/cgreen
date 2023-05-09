@@ -38,11 +38,17 @@ http://git.altlinux.ru/people/voins/packages/?p=cgreen.git for list of changes
 %files
 %doc README.md samples
 
+%_bindir/%name-runner
+
 %_includedir/*
 %_libdir/*.so*
 
+%_libdir/cmake/*.cmake
+
 %_man1dir/*
 %_man5dir/*
+
+%_datadir/bash-completion/completions/*
 
 
 %changelog
