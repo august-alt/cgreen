@@ -39,6 +39,7 @@ http://git.altlinux.ru/people/voins/packages/?p=cgreen.git for list of changes
 %doc README.md samples
 
 %_bindir/%name-runner
+%_bindir/%name-debug
 
 %_includedir/*
 %_libdir/*.so*
