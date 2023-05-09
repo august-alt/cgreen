@@ -36,9 +36,13 @@ http://git.altlinux.ru/people/voins/packages/?p=cgreen.git for list of changes
 %cmakeinstall_std
 
 %files
-%doc README VERSION documentation samples
+%doc README.md samples
+
 %_includedir/*
 %_libdir/*.so*
+
+%_man1dir/*
+%_man5dir/*
 
 
 %changelog
