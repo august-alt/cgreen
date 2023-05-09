@@ -23,7 +23,3 @@ jobs:
       - if: ${{ matrix.architecture == 'amd64' }}
         run: docker run --privileged=true -i --log-driver=none -a stdin -a stdout -a stderr -v "$(pwd)":/app build-environment
 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: cgreen-${{ matrix.alt-version.artifact }}-${{ matrix.architecture }}
-          path: /home/builder2/RPM/RPMS/x86_64/
