@@ -28,9 +28,6 @@ http://git.altlinux.ru/people/voins/packages/?p=cgreen.git for list of changes
 %prep
 %setup -q
 
-%prep
-%setup -q
-
 %build
 %cmake
 %cmake_build
