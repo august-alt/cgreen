@@ -43,7 +43,7 @@ http://git.altlinux.ru/people/voins/packages/?p=cgreen.git for list of changes
 %_includedir/*
 %_libdir/*.so*
 
-%_libdir/cmake/*.cmake
+%_libdir/cmake/%name/*.cmake
 
 %_man1dir/*
 %_man5dir/*
