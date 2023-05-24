@@ -7,6 +7,8 @@ License: LGPL-2.1+
 Group: Development/C
 Url: http://www.lastcraft.com/cgreen.php
 
+BuildRequires: cmake rpm-macros-cmake gcc gcc-c++
+
 Source0: %name-%version.tar
 
 %define _unpackaged_files_terminate_build 1
